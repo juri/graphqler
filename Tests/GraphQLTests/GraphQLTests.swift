@@ -337,14 +337,14 @@ class GraphQLTests: XCTestCase {
     }
 
     func testFieldNestedArrayValue() throws {
-        let gql = Field(name: "nested", arguments: ["d": [1, "foo", [3, "bar"]]])
+        let gql = Field(name: "nested", arguments: ["d": [1, "foo", [3, "bar"] as [Any]] as [Any]])
         XCTAssertEqual(
             try Stringifier.compact.stringify(gql),
             #"nested(d: [1 "foo" [3 "bar"]])"#)
     }
 
     func testFieldNestedDictValue() throws {
-        let gql = Field(name: "nested", arguments: ["d": ["a": 1, "b": ["c": 3]]])
+        let gql = Field(name: "nested", arguments: ["d": ["a": 1, "b": ["c": 3]] as [String : Any]])
         let options = ["nested(d: {a: 1 b: {c: 3}})", "nested(d: {b: {c: 3} a: 1})"]
         XCTAssertTrue(options.contains(try Stringifier.compact.stringify(gql)))
     }

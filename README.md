@@ -85,4 +85,4 @@ let str = try gql.compactString()
 You can try running these examples yourself in the included Xcode playgrounds. If you open `Package.swift` in Xcode, you should also see the playgrounds.
 
 [source]: https://github.com/juri/graphqler
-[docs]: https://juri.github.io/graphqler/
+[docs]: https://juri.github.io/graphqler/documentation/graphqler/

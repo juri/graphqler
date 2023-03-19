@@ -5,3 +5,4 @@
 build
 vendor
 .swiftpm
+GraphQLer.docc/.docc-build

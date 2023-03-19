@@ -7,7 +7,9 @@ let package = Package(
     products: [
         .library(name: "GraphQLer", targets: ["GraphQLer"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.2.0"),
+    ],
     targets: [
         .target(
             name: "GraphQLer",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.2](https://www.github.com/juri/graphqler/compare/0.3.1...0.3.2) (2023-03-19)
+
+### Other Changes
+
+- Test compilation with Swift 5.7. Fix warnings.
+- Switch from Jazzy to DocC.
+
 ## [0.3.1](https://www.github.com/juri/graphqler/compare/0.3.0...0.3.1) (2021-03-07)
 
 ### Bug Fixes

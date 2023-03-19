@@ -2,7 +2,7 @@
 
 [![Swift 5.7](https://img.shields.io/badge/swift-5.7-red.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Twitter](https://img.shields.io/badge/twitter-@juripakaste-brightgreen.svg)](http://twitter.com/juripakaste)
+[![Mastodon](https://img.shields.io/badge/mastodon-juri@mastodon.social-brightgreen.svg)](https://mastodon.social/@juri)
 
 GraphQLer is a Swift library for generating [GraphQL] documents (i.e. things you can send to a server.) It follows the [June 2018 spec]. It does not do networking, data binding, or parsing.
 
